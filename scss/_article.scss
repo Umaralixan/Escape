@@ -1,0 +1,35 @@
+.article {
+  background-color: #f7f7f7;
+  .article__title {
+    font-family: Oxygen;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #2e2e2e;
+    margin-top: 60px;
+  }
+  .cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 35px;
+    .article__img {
+      width: 49%;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .article {
+    .cards {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      .article__img{
+        width: 100%;
+      }
+    }
+  }
+}

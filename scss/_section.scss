@@ -1,0 +1,42 @@
+.section {
+  background: #fff;
+  .section__div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 25px 0;
+    .text {
+      font-family: Lora;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 0%;
+      color: #768088;
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .section {
+    .text {
+      font-size: 12px;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .section {
+    .text {
+      font-weight: 300;
+      font-size: 10px;
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  .section {
+    .text {
+      display: none;
+    }
+  }
+}

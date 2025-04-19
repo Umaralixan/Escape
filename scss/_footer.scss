@@ -1,0 +1,158 @@
+.footer {
+  background-image: url(../img/footer__img.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  height: 380px;
+  .foter__top {
+    padding-top: 90px;
+    .foter__title {
+      font-family: Oxygen;
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 30px;
+      letter-spacing: 0%;
+      text-align: center;
+      color: #efefef;
+    }
+    .hr {
+      width: 188px;
+      height: 2px;
+      background-color: #dedede;
+      margin: 17px auto;
+    }
+    .futer {
+      display: flex;
+      justify-content: center;
+    }
+    .input {
+      width: 370px;
+      height: 50px;
+      padding-left: 30px;
+    }
+    .foter__btn {
+      width: 125px;
+      height: 50px;
+      color: #fff;
+      border-radius: 3px;
+      background-color: #ffffff47;
+    }
+  }
+  .foter__buttom {
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .foter__ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  .foter__logo {
+    font-family: Lora;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 26px;
+    color: #ffffff;
+  }
+  .foter__link {
+    font-family: Oxygen;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    color: #ffffff99;
+    text-transform: uppercase;
+  }
+  .foter__link:hover {
+    color: #fff;
+  }
+}
+
+@media (max-width: 800px) {
+  .footer {
+    .foter__top {
+      .input {
+        width: 350px;
+      }
+      .foter__btn {
+        width: 115px;
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .footer {
+    .foter__top {
+      .input {
+        width: 330px;
+      }
+      .foter__btn {
+        width: 110px;
+      }
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .footer {
+    .foter__buttom {
+      .foter__ul {
+        gap: 10px;
+        .foter__link {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .footer {
+    .foter__top {
+      .input {
+        width: 300px;
+        height: 40px;
+      }
+      .foter__btn {
+        width: 100px;
+        height: 40px;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .footer {
+    .foter__buttom {
+        flex-direction: column;
+         padding-top: 20px;
+         justify-content: end;
+      .foter__ul {
+           flex-direction: column;
+        .foter__link {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 400px) {
+  .footer {
+    .foter__top {
+      .input {
+        width: 250px;
+        height: 40px;
+      }
+      .foter__btn {
+        width: 80px;
+        height: 40px;
+      }
+    }
+  }
+}
